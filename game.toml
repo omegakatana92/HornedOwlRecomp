@@ -1,0 +1,31 @@
+[game]
+name = "HornedOwl"
+id = "SCUS-94408"
+exe = "input/SCUS_944.08"
+disc = "disc/Project - Horned Owl (USA).cue"
+load_address = "0x80100000"
+entry_pc = "0x80100224"
+text_size = "0x00036000"
+stack_base = "0x801FFFF0"
+
+[recompiler]
+seeds = "seeds/functions.txt"
+strict = true
+out_dir = "generated"
+
+[runtime]
+window_title = "Project Horned Owl Recompiled"
+bios_hle = false
+openbios = true
+overlay_cache = true
+
+[video]
+renderer = "software"
+
+[prepare_disc]
+track_01_sha1 = "42b3c86a9268eee7d377f9fcdefacfa3ce985b14"
+track_01_md5 = "fcbaa69de1e7dc9434f9bf52882e55a5"
+track_01_size = 454705104
+
+[netplay]
+require_cue = true

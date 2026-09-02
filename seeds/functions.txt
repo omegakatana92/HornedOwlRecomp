@@ -1,0 +1,11 @@
+# Auto-scanned JAL targets (+ entry) from SCUS_944.08
+# entry=0x80100224 load=0x80100000 text_size=0x36000
+# First-pass only — add overlay / runtime discoveries as you decomp.
+0x80100000
+0x80100180
+0x80100214
+0x80100224
+0x801002CC
+0x801003A4
+0x8010AAA8
+0x8012A13C
